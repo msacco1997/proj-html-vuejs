@@ -28,6 +28,35 @@ export default {
 </script>
 
 <style scoped lang="scss">
+    h2{
+        color: #010101;
+        font-size: 30px;
+        
+    }
+    span{
+        color: #424242;
+        margin-top: 10px;
+        font-size: 18px;
+    }
+
+    .column_row{
+        height: 25vh;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .logos{
+        display: flex;
+        flex-direction: row;
+        gap:20px;
+        justify-content: center;
+    }
 
 
 
