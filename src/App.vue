@@ -2,17 +2,29 @@
   <div id="app">
     <MyHeader />
     <MyServices />
+    <MyInfos />
+    <MyBrands />
   </div>
 </template>
 
 <script>
 import MyHeader from './components/MyHeader.vue'
 import MyServices from './components/MyServices.vue'
+import MyInfos from './components/MyInfos.vue'
+import MyBrands from './components/MyBrands.vue'
+
+
+
+
+
+
 export default {
   name: 'App',
   components: {
     MyHeader,
     MyServices,
+    MyInfos,
+    MyBrands,
   }
 }
 </script>
