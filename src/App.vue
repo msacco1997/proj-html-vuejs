@@ -4,6 +4,8 @@
     <MyServices />
     <MyInfos />
     <MyBrands />
+
+    <MyCards />
   </div>
 </template>
 
@@ -12,7 +14,7 @@ import MyHeader from './components/MyHeader.vue'
 import MyServices from './components/MyServices.vue'
 import MyInfos from './components/MyInfos.vue'
 import MyBrands from './components/MyBrands.vue'
-
+import MyCards from './components/MyCards.vue'
 
 
 
@@ -25,6 +27,8 @@ export default {
     MyServices,
     MyInfos,
     MyBrands,
+
+    MyCards,
   }
 }
 </script>
