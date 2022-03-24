@@ -1,16 +1,18 @@
 <template>
   <div id="app">
     <MyHeader />
+    <MyServices />
   </div>
 </template>
 
 <script>
 import MyHeader from './components/MyHeader.vue'
-
+import MyServices from './components/MyServices.vue'
 export default {
   name: 'App',
   components: {
     MyHeader,
+    MyServices,
   }
 }
 </script>
@@ -22,6 +24,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  
+
+}
+*{
+  margin: 0;
+  padding: 0;
 }
 </style>

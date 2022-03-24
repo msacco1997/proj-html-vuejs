@@ -13,7 +13,7 @@
                 <li class="navbar_opt">About</li>
                 <li class="navbar_opt">Blog</li>
             </ul>
-            <button class="number"><font-awesome-icon icon="fa-solid fa-phone" />(555) 802-1234</button>
+            <button class="number"><font-awesome-icon icon="fa-solid fa-phone" class="icon" />(555) 802-1234</button>
             <button href="#" class="btn"> Free Quote</button>
         </div>
     </div>
@@ -47,19 +47,17 @@ export default {
             .wrapper{
                 display: inline-block;
                 overflow: hidden;
-                margin-left: 130px;
+                /* margin-left: 130px; */
                 
-                img{
-                    
+                img{                    
                     max-width: 200px;
-
                 }
             }
             .navbar{
                 display: flex;
                 flex-direction: row;
                 width: 850px;
-                margin-right:30px;
+                /* margin-right:30px; */
                 .navbar_opt{
                     list-style: none;
                     align-self: center;
@@ -69,7 +67,7 @@ export default {
             }
             .btn{
                 max-width: 150px;
-                margin-right: 180px;
+                /* margin-right: 180px; */
                 height: 50px;
                 font-size: 16px;
                 align-self: center;
@@ -97,7 +95,14 @@ export default {
         border-color: transparent;
         font-size: 18px;
         font-weight: bold;
+        width: 300px;
+        align-self: center;
     }
+.icon{
+    color: #eb621f;
+    
+}
+
 
 
 
