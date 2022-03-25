@@ -34,7 +34,7 @@ export default {
 <style scoped lang="scss">
     *{
         margin: 0 auto;      
-        width: 1600px;
+        
     }
     .header{
         margin-top: 0;
