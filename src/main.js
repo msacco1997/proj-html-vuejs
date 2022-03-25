@@ -7,6 +7,8 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 /* import specific icons */
 import { faPhone } from '@fortawesome/free-solid-svg-icons'
 import { faWifi } from '@fortawesome/free-solid-svg-icons'
+import { faLandmarkAlt } from '@fortawesome/free-solid-svg-icons'
+
 
 /* import font awesome icon component */
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
@@ -14,6 +16,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* add icons to the library */
 library.add(faPhone)
 library.add(faWifi)
+library.add(faLandmarkAlt)
 
 /* add font awesome icon component */
 Vue.component('font-awesome-icon', FontAwesomeIcon)

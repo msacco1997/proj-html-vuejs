@@ -79,7 +79,7 @@ figure{
 }
 .row{
     display: flex;
-    width: 100vw;
+    
     height: 50vh;
     flex-wrap: wrap;
     .col_4{
